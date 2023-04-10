@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>svl_inicio</display-name>
+    <servlet-name>svl_inicio</servlet-name>
+    <servlet-class>svl.svl_inicio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>svl_inicio</servlet-name>
+    <url-pattern>/svl_inicio</url-pattern>
+  </servlet-mapping>
+  <display-name>Home_Driv_SAC</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>svlRegistro</display-name>
+    <servlet-name>svlRegistro</servlet-name>
+    <servlet-class>svl.svlRegistro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>svlRegistro</servlet-name>
+    <url-pattern>/svlRegistro</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>svl_Registro</display-name>
+    <servlet-name>svl_Registro</servlet-name>
+    <servlet-class>svl.svl_Registro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>svl_Registro</servlet-name>
+    <url-pattern>/svl_Registro</url-pattern>
+  </servlet-mapping>
+</web-app>
